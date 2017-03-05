@@ -21,7 +21,7 @@ Application Components
 
 Main application components overview:  
 
-![Application Components](https://s3.eu-west-2.amazonaws.com/public-lukas/silver-bar-market-components.png)
+![Application Components](https://s3.eu-west-2.amazonaws.com/public-lukas/silver-bar-market-components-overview.png)
 
 Build
 -----
@@ -84,5 +84,5 @@ to the above application features.
 Implementation Notes
 --------------------
 
-* No real persistence implemented. Just an in-memory implementation provided.
+* No real persistence implemented. Just an in-memory order repository implementation provided.
 * No real authentication implemented. The `DefaultOrderBoardService` uses a dummy userId.
