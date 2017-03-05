@@ -1,0 +1,15 @@
+logging:
+  level:
+    ROOT: INFO
+    com.cs.orderboard: DEBUG
+
+server:
+    port: 8080
+    context-path: /
+
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+    generator:
+      write_bigdecimal_as_plain: true
